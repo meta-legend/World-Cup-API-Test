@@ -23,7 +23,7 @@ apiTestBtn.addEventListener("click", () => {
         apiTestResult.innerHTML = data
     }); 
     
-    fetch("https://reqres.in/api/login", {
+    fetch("https://reqres.in/api/register", {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
