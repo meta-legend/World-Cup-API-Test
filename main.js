@@ -29,8 +29,8 @@ apiTestBtn.addEventListener("click", () => {
             'Content-Type': 'application/json'
         },
         body: JSON.stringify({
-            'email': 'example@gmail.com',
-            'password': 'memes'
+            email: 'meme201535135@gmail.com',
+            password: 'memes'
         })
     }).then(res => { 
         if (res.ok) {
